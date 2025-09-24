@@ -1,0 +1,21 @@
+.container {
+    display: grid;
+    grid-template-columns: 120px 120px;
+    grid-template-rows: 50px 50px 50px 50px;
+    gap: 20px;
+}
+
+.sidebar {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+}
+
+.sidebar li {
+    list-style-type: none;
+    line-height: 20px;
+}
+
+.header {
+    grid-column: 2 / 3;
+    grid-row: 1 / 1;
+}
