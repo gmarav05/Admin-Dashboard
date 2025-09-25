@@ -193,7 +193,6 @@ li:hover {
     right: 280px;   
 }
 
-
 .share {
     font-family: "Roboto";
     border: none;
@@ -208,10 +207,13 @@ li:hover {
     right: 160px;
 } 
 
+/* Main content starts here */
+
 .content {
     display: grid;
-    grid-template-columns:  460px  460px;
-    grid-template-rows: 30px repeat(3, 220px) 30px;
+    grid-template-columns:  450px  450px;
+    grid-template-rows: 30px repeat(3, 200px) 30px;
+    padding-left: 20px;
     gap: 15px;
 }
 
@@ -220,7 +222,7 @@ li:hover {
     grid-row: 1/ 2;
     font-family: "Roboto";
     font-size: 18px;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 20px;
     font-weight: 500;
     align-items: end;
@@ -272,8 +274,6 @@ li:hover {
         padding: 10px;
     }
 } 
-
-
 .card2 {
     display: grid;
     grid-template-columns: 20px 430px;
@@ -285,7 +285,6 @@ li:hover {
     grid-auto-flow: column;
 
 }
-
 
 .card2 > h5 {
     grid-column: 2 / 3;
@@ -320,3 +319,138 @@ li:hover {
         padding: 10px;
     }
 } 
+
+
+/* Right content starts here */
+
+.right {
+  display: grid;
+  grid-template-columns:  935px 300px;
+  grid-template-rows: 20px 340px 340px;
+
+}
+
+.right > h5 {
+    grid-column: 2 / 2;
+    grid-row: 1/ 2;
+    font-family: "Roboto";
+    font-size: 18px;
+    margin-left: 0px;
+    margin-left: 25px;
+    padding-left: 20px;
+    font-weight: 500;
+    align-items: end;
+    align-content: center;
+}
+
+.right-card {
+    grid-column: 2 / 2;
+    width: 260px;
+    height: 310px;
+    display: grid;
+    grid-template-rows: 10px 90px 10px 90px 10px 90px;
+    grid-template-columns: 30px 200px 30px;
+    border-radius: 8px;
+    background-color: white;
+    border: width 2px; ;
+    border-color: black ;
+    box-shadow: #cdd2d9 4px 4px 3px;
+    justify-self: center;
+}
+
+.item-1 {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    font-size: 12px;
+      text-align: left;
+}
+
+
+.item-1 > h5 {
+     font-family: "Roboto";
+    padding-left: 4px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 2px;
+    font-weight: 400;
+}
+
+.right-card  p {
+     font-family: "Roboto";
+    margin-left: 3px;
+    color: gray;
+}
+
+
+.item-2 {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    font-size: 12px;
+    text-align: left;
+}
+
+
+.item-2 > h5 {
+     font-family: "Roboto";
+    padding-left: 4px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    font-weight: 400;
+}
+
+.right-card  p {
+     font-family: "Roboto";
+    margin-left: 3px;
+    color: gray;
+}
+
+
+.item-3 {
+    grid-row: 5/5;
+    grid-column: 2/3;
+    font-size: 12px;
+    text-align: left;
+}
+
+
+.item-3 > h5 {
+     font-family: "Roboto";
+    padding-left: 4px;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 4px;
+    font-weight: 400;
+}
+
+.right-card  p {
+     font-family: "Roboto";
+    margin-left: 3px;
+    color: gray;
+}
+
+.hr1 {
+    grid-row: 3/3;
+    grid-column: 2/3;
+    z-index: 1;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding-top: 2px;
+}
+
+.hr2 {
+    grid-row: 5/6;
+    grid-column: 2/3;
+    z-index: 1;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    padding-top: 2px;
+}
