@@ -76,7 +76,6 @@ li:hover {
 .header {
     display: grid;
     grid-template-rows: 1fr 1fr;
-
 }
 
 .head1 {
@@ -134,3 +133,143 @@ li:hover {
     top: 26px;
     right: 200px;
 }
+
+.head2 {
+    display: grid;
+    grid-template-columns: 720px 80px 80px 188px;
+    grid-template-rows: 15px 30px;
+}
+
+.profile2 {
+    width: 45px;
+    position: absolute;
+    top: 72.5px;
+    left: 280px;
+}
+
+.small-text {
+    font-family: "Roboto";
+    font-size: small;
+    font-weight: 500;
+    position: absolute;
+    top: 72.5px;
+    left: 340px;
+}
+
+.head2 h6 {
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 24px;
+    position: absolute;
+    top: 90.5px;
+    left: 340px;
+}
+
+.new {
+    font-family: "Roboto";
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    background-color: #1a92d4;
+    color: white;
+    position: absolute;
+    top: 81.5px;
+    right: 400px;
+}
+
+.upload {
+    font-family: "Roboto";
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    background-color: #1a92d4;
+    color: white;
+    position: absolute;
+    top: 81.5px;
+    right: 280px;   
+}
+
+
+.share {
+    font-family: "Roboto";
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    width: 100px;
+    height: 35px;
+    background-color: #1a92d4;
+    color: white;
+    position: absolute;
+    top: 81.5px;
+    right: 160px;
+} 
+
+.content {
+    display: grid;
+    grid-template-columns:  460px  460px;
+    grid-template-rows: 30px repeat(3, 220px) 30px;
+    gap: 10px;
+}
+
+.content h6 {
+    grid-column: 1 / 2;
+    grid-row: 1/ 2;
+    font-family: "Roboto";
+    font-size: 18px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-weight: 500;
+    align-items: end;
+    align-content: center;
+}
+
+.card {
+    grid-column: 1 / 2;
+    display: grid;
+    grid-template-columns: 20px 430px;
+    grid-template-rows: 10px 40px 140px 30px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: #cdd2d9 4px 4px 3px;
+    border-left: #f0b432 8px solid;
+}
+
+.card > h5 {
+    grid-column: 2 / 3;
+    padding-top: 20px;
+    padding-left: 4px;
+    grid-row: 2 / 3 ;
+    font-weight: 450;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.card > p {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4 ;
+  font-family: "Roboto";
+  font-weight: 350;
+  padding-left: 4px;
+  padding-top: 10px;
+  font-size: 13px;
+}
+
+
+.project-btn {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4 ;
+  padding-right: 20px;
+  align-items: center;
+  align-content: end;
+  justify-self: end;
+
+    svg {
+        fill: black;
+        padding: 10px;
+    }
+
+} 
