@@ -212,7 +212,7 @@ li:hover {
     display: grid;
     grid-template-columns:  460px  460px;
     grid-template-rows: 30px repeat(3, 220px) 30px;
-    gap: 10px;
+    gap: 15px;
 }
 
 .content h6 {
@@ -236,6 +236,7 @@ li:hover {
     background-color: white;
     box-shadow: #cdd2d9 4px 4px 3px;
     border-left: #f0b432 8px solid;
+    grid-auto-flow: column;
 }
 
 .card > h5 {
@@ -258,6 +259,53 @@ li:hover {
   font-size: 13px;
 }
 
+.project-btn {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4 ;
+  padding-right: 20px;
+  align-items: center;
+  align-content: end;
+  justify-self: end;
+
+    svg {
+        fill: black;
+        padding: 10px;
+    }
+} 
+
+
+.card2 {
+    display: grid;
+    grid-template-columns: 20px 430px;
+    grid-template-rows: 10px 40px 140px 30px;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: #cdd2d9 4px 4px 3px;
+    border-left: #f0b432 8px solid;
+    grid-auto-flow: column;
+
+}
+
+
+.card2 > h5 {
+    grid-column: 2 / 3;
+    padding-top: 20px;
+    padding-left: 4px;
+    grid-row: 2 / 3 ;
+    font-weight: 450;
+    font-size: 18px;
+    font-family: "Roboto";
+}
+
+.card2 > p {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4 ;
+  font-family: "Roboto";
+  font-weight: 350;
+  padding-left: 4px;
+  padding-top: 10px;
+  font-size: 13px;
+}
 
 .project-btn {
   grid-column: 2 / 3;
@@ -271,5 +319,4 @@ li:hover {
         fill: black;
         padding: 10px;
     }
-
 } 
