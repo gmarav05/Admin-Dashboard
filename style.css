@@ -3,7 +3,6 @@
     padding: 0;
 }
 
-
 .roboto-font {
   font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
@@ -15,22 +14,32 @@
 
 .container {
     display: grid;
-    grid-template-columns: 1fr 4fr;
-    grid-template-rows:repeat(4, 208.5px);
-    gap: 15px;
+    grid-template-columns: 230px 4fr;
+    grid-template-rows: 120px 18px 220px 220px 220px 12px;
+    gap: 5px;
+}
+
+svg {
+    width: 20px;
+    fill: white;
+}
+
+li:hover {
+    background-image: linear-gradient(rgb(0 0 0/10%) 0 0);
 }
 
 .sidebar .sideheading {
     font-size: 25px;
     position: absolute;
     bottom: 765px;
-    margin-top: 5px;
+    margin-top: 90px;
     margin-bottom: 30px;
 }
 
 .sidebar {
-    grid-row: 1 / 4 span;
+    grid-row: 1 / 6 span;
     padding: 58px;
+    padding-top: 80px;
     background-color:rgb(45, 157, 255);
     color: white;
     font-size: 20px;
@@ -38,13 +47,90 @@
     font-weight: 500;
 }
 
+.dashboard  {
+    position: absolute;
+    width: 35px;
+    left: 20px;
+    top: 8px;
+}
+
+.sidebar svg {
+    fill: white;
+    position: absolute;
+    left: 16px;
+}
+
 .sidebar ul li {
    list-style-type: none;
    margin-bottom: 20px;
 }
 
-
 .sidebar li:hover {
   cursor:pointer;
-   text-shadow: black;
+  text-shadow: black;
+}
+
+/* Header starts from here */
+
+
+.header {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.head1 {
+    display: grid;
+    grid-template-columns: 60px 720px 80px 80px 188px;
+    grid-template-rows: 15px 30px;
+}
+
+.head1 svg {
+    grid-column: 1 / 2;
+    width: 25px;
+    padding-left: 35px;
+    padding-top: 20px;
+    fill: black;
+}
+
+.box {
+    border: none;
+    padding-left: 15px;
+    background-color: #e2e8f0;
+    border-radius: 16px;
+    border-color: #aaa;
+    width: 40%;
+    height: 30px;
+    position: absolute;
+    top: 18px;
+    left: 310px;
+}
+
+.box:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    border-color: black;
+}
+
+.bell svg{
+    width: 22px;
+    position: absolute;
+    top: 3px;
+    right: 400px;
+}
+
+.profile {
+    width: 30px;
+    position: absolute;
+    top: 20.5px;
+    right: 340px;
+}
+
+.head1 h6 {
+    font-family: "Roboto";
+    font-weight: medium;
+    font-size: 18px;
+    position: absolute;
+    top: 26px;
+    right: 200px;
 }
