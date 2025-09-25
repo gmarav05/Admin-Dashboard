@@ -325,7 +325,7 @@ li:hover {
 
 .right {
   display: grid;
-  grid-template-columns:  935px 300px;
+  grid-template-columns: 935px 300px;
   grid-template-rows: 20px 340px 340px;
 
 }
@@ -365,7 +365,6 @@ li:hover {
       text-align: left;
 }
 
-
 .item-1 > h5 {
      font-family: "Roboto";
     padding-left: 4px;
@@ -383,14 +382,12 @@ li:hover {
     color: gray;
 }
 
-
 .item-2 {
     grid-row: 3/4;
     grid-column: 2/3;
     font-size: 12px;
     text-align: left;
 }
-
 
 .item-2 > h5 {
      font-family: "Roboto";
@@ -430,7 +427,7 @@ li:hover {
 }
 
 .right-card  p {
-     font-family: "Roboto";
+    font-family: "Roboto";
     margin-left: 3px;
     color: gray;
 }
@@ -454,3 +451,92 @@ li:hover {
     border-top: 1px solid #ccc;
     padding-top: 2px;
 }
+
+.right-card2h5 {
+    font-family: "Roboto";
+    position: absolute;
+    top: 490px;
+    right: 180px;
+}
+
+.right-card2 {
+    grid-column: 2 / 2;
+    width: 260px;
+    height: 310px;
+    display: grid;
+    grid-template-rows: 11px 62px 10px 62px 10px 62px 10px 62px;
+    grid-template-columns: 10px 60px 180px 10px;
+    border-radius: 8px;
+    background-color: white;
+    border: width 2px; ;
+    border-color: black ;
+    box-shadow: #cdd2d9 4px 4px 3px;
+    justify-self: center;
+}
+
+.profile1 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 40px;
+    padding-left: 5px;
+    padding-top: 5px;
+  
+}
+
+.profile-picture1  h5{
+    grid-row: 3/4;
+    grid-column: 3/4;
+    width: 900px;
+    padding-left: 75px;
+    padding-top: 15px;
+    font-family: "Roboto";
+    font-weight: 350;
+
+}
+
+.profile-picture1 p {   
+        grid-row: 3/4;
+        grid-column: 3/4;
+        width: 600px;
+        padding-left: 75px;
+        font-size: 14px;
+        padding-top: 2px;
+        font-family: "Roboto";
+        font-weight: 250;
+}
+
+.profile2 {
+    grid-column: 2/3;
+    grid-row: 5/6;
+    width: 400px;
+    padding-left: 5px;
+    padding-top: 5px;
+  
+}
+
+/* 
+.profile-picture2  h5{
+    grid-row: 3/4;
+    grid-column: 4/5;
+    /* width: 900px;
+    padding-left: 75px;
+    padding-top: 15px; */
+    /* font-family: "Roboto";
+    font-weight: 350;
+
+} */
+/* 
+.profile-picture2 p {   
+        grid-row: 3/4;
+        grid-column: 5/6;
+        width: 600px;
+        padding-left: 75px;
+        font-size: 14px;
+        padding-top: 2px;
+        font-family: "Roboto";
+        font-weight: 250;
+
+} */ 
+
+
+
